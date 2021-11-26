@@ -21,7 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-
         <h1 stylee="font-color:#FFF;">Antonio Segura Hernán&iacute;dez</h1><br/>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))

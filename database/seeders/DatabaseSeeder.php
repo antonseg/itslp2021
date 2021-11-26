@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 namespace Database\Seeders;
 
@@ -13,6 +13,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+    	$this->call(LibroSeeder::class);
+
         // \App\Models\User::factory(10)->create();
     }
 }
